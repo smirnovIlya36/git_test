@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv)
 {
-    char first[255], last[255];
+    char first[255], last[250];
     
     askname(first, last);
     printf("Hello, %s %s!\n", first, last);
